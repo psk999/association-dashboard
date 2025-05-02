@@ -3,7 +3,7 @@ import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
 from io import StringIO
 
-st.set_page_config(page_title="Association Rule Mining Dashboard", layout="wide")
+st.set_page_config(page_title="Rule Mining Dashboard", layout="wide")
 st.title("🧠 Association Rule Mining Dashboard")
 
 uploaded_file = st.file_uploader("Upload your dataset (CSV)", type="csv")
